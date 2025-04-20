@@ -2,7 +2,7 @@
 // Crear un script que capture el evento clic del botón y que cambie el texto del párrafo por otro. -->
 
 
-import { cambiarTexto } from "../ejercicio18-funcion.js";
+import { cambiarTexto } from "./ejercicio18-funcion.js";
 
 
 let parrafo = document.getElementById("miParrafo");
