@@ -1,11 +1,26 @@
 <!-- 14. Escribir una función llamada duplicar que reciba un arreglo de números y retorne un nuevo arreglo donde cada número esté multiplicado por dos (2). -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 14</title>
+    <script>
+
+      const numeros = [15, 20, 25, 30, 35, 40, 45, 50];
+  
+      let duplicar = (arreglo) =>{
+        return arreglo.map(numero => numero * 2);
+      } 
+
+      const multiplicado = duplicar(numeros);
+      
+      alert("Arreglo: ["+ numeros + "]\n"+"Arreglo multiplicado por 2: [" + multiplicado + "]");
+
+  </script>
   </head>
-  <body></body>
+  <body>
+    <h1>Ejercicio 14 terminado.</h1>
+  </body>
 </html>
