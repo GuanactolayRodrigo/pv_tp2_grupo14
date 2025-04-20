@@ -11,8 +11,24 @@ Utilizar JavaScript para manejar el evento input. -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicio 22</title>
+
+    <style>
+      #displayText {
+        padding: 10px;
+        border: 1px solid #ccc;
+        transition: background-color 0.3s;
+      }
+      #displayText.long-text {
+        background-color: lightcoral;
+      }
+    </style>
   </head>
   <body>
-    <script src="/js/ejercicio22.js"></script>
+    <h1>Ejercicio 22</h1>
+    <h2>Escribe algo:</h2>
+    <input type="text" id="inputText" placeholder="Escribe aquí..." />
+    <h2>Texto ingresado:</h2>
+    <p id="displayText"></p>
+    <script type="module" src="/js/ejercicio22.js"></script>
   </body>
 </html>

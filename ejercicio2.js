@@ -1,1 +1,0 @@
-// 2.Mostrar por consola los primeros 10 números pares
