@@ -6,9 +6,9 @@ export const mostrarDatos = () => {
     if (!nombre || !apellido || !lu) {
         alert('Por favor, complete todos los campos.');
     } else {
-        alert('Datos ingresados:\n' +
-            'Nombre: ' + nombre + '\n' +
-            'Apellido: ' + apellido + '\n' +
-            'LU: ' + lu);
+        alert(`Datos ingresados:  
+        Nombre: ${nombre}
+        Apellido: ${apellido}
+        Lu: ${lu}`);
     }
 }
