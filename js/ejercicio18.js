@@ -8,4 +8,5 @@ import { cambiarTexto } from "./ejercicio18-funcion.js";
 let parrafo = document.getElementById("miParrafo");
 let boton = document.getElementById("miBoton");
 
+
 boton.addEventListener("click", () => cambiarTexto(parrafo));
