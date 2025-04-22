@@ -3,6 +3,6 @@
 
 
 export let cambiarTexto = (obj) => {
-    obj.innerHTML = "¡El texto ha sido cambiado!";
-    obj.style.color = "blue"; 
+    obj.innerHTML = `¡El texto ha sido cambiado!`;
+    obj.style.color = `blue`; 
 }

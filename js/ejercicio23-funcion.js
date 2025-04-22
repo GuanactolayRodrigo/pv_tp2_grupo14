@@ -4,7 +4,7 @@ export let agregarChange=(radio,res)=>{
         radio[i].addEventListener("change", function() { //click,change,input
           if (radio[i].checked) {
             valorRadio = radio[i].value;
-            res.innerHTML = "El lenguaje seleccionado es: " + valorRadio;
+            res.innerHTML = `El lenguaje seleccionado es: ${valorRadio}`;
           }
         });
       }
